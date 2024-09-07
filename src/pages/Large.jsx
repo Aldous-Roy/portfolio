@@ -9,12 +9,12 @@ const Large = () => {
             <h1 className='text-xl text-white text-center'>
         <Typewriter
           words={["I'm a MERN stack Developer" , "I'm a Software Developer ","I'm a Public Speaker"]}
-          loop={5}
+          loop={100}
           cursor
           cursorStyle="|"
           typeSpeed={70}
           deleteSpeed={50}
-          delaySpeed={1000}
+          delaySpeed={500}
         />
       </h1>
         </div>
