@@ -17,7 +17,6 @@ const Model = () => {
           <Earth scale={2.7}/>
         </Suspense>
       </Canvas>
-      <p className='text-center font-medium'>Have a Visit</p>
     </div>
   )
 }
