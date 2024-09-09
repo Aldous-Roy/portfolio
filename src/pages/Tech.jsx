@@ -1,10 +1,21 @@
 import React from 'react'
 import Skill from '../components/Skill'
+import { Typewriter } from 'react-simple-typewriter'
 
 const Tech = () => {
   return (
-    <div>
-      <h3>My </h3>
+    <div className='bg-blue-500 m-20 p-5 rounded-3xl'>
+      <h3 className='text-2xl text-center font-semibold pt-5 text-white'>
+      <Typewriter
+          words={["My Knowledge" , "My Skills","My Learning"]}
+          loop={100}
+          cursor
+          cursorStyle="|"
+          typeSpeed={70}
+          deleteSpeed={50}
+          delaySpeed={500}
+        />
+      </h3>
       <div className=" md:flex md:justify-center md:space-x-4 p-5 md:gap-x-10">
       <Skill 
         title="React JS"
